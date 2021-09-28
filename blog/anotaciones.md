@@ -4,6 +4,10 @@ authors: [Alfacoy]
 slug: Mis notas
 ---
 
+### 28/09/2021
+* Twitch Doc (https://dev.twitch.tv/docs/)
+
+### 26/09/2021
 * Docusaurus (https://docusaurus.io/)
 * Solidity (https://solidity-es.readthedocs.io/es/latest/index.html)
 * Utterances (https://utteranc.es/)
