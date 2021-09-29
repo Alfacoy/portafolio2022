@@ -4,10 +4,7 @@ authors: [Alfacoy]
 slug: Mis notas
 ---
 
-### 28/09/2021
-* Twitch Doc (https://dev.twitch.tv/docs/)
-
-### 26/09/2021
+### Septiembre 2021
 * Docusaurus (https://docusaurus.io/)
 * Solidity (https://solidity-es.readthedocs.io/es/latest/index.html)
 * Utterances (https://utteranc.es/)
@@ -20,3 +17,4 @@ slug: Mis notas
 * NFT/DAO (https://medium.com/swissborg/qu%C3%A9-son-los-nfts-951a76f3fac1)
 * NodeMailer (https://nodemailer.com/about/)
 * Electron (https://www.electronjs.org/)
+* Twitch Doc (https://dev.twitch.tv/docs/)

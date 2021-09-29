@@ -29,7 +29,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         },
         blog: {
           showReadingTime: true,
-          blogSidebarTitle: 'Los más recientes',
+          blogSidebarTitle: 'Recientes',
           editUrl: 'https://github.com/Alfacoy/portafolio_v3',
         },
         theme: {
@@ -54,24 +54,41 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           { type: 'doc', docId: 'intro',label: 'Docs', position: 'right' },
           { to: '/blog', label: 'Blog', position: 'right' },
-          { href: 'https://github.com/Alfacoy', label: 'Github',position: 'right'}
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'More',
+            title: 'Secciones',
             items: [
+              {
+                label: 'Sobre mi',
+                to: '/sobreMi'
+              },
               {
                 label: 'Blog',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/Alfacoy',
-              },
+                label: 'Docs',
+                to: '/docs/intro',
+              }
             ],
+          },
+          {
+            title: 'Redes sociales',
+            items:
+              [
+                {
+                  label: 'GitHub',
+                  href: 'https://github.com/Alfacoy',
+                },
+                {
+                  label: 'Linkedin',
+                  href: 'https://www.linkedin.com/in/durand18/',
+                },
+              ]
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Brian Durand`,
