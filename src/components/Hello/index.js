@@ -1,5 +1,6 @@
 import React from "react";
 import useThemeContext from '@theme/hooks/useThemeContext';
+import cv from '@site/static/curriculum.pdf';
 import clsx from "clsx";
 
 // IMAGES
@@ -30,8 +31,12 @@ const Hello = () => {
                         <p className={style.header__paragraph}>
                             Por la noche, curso en el <b>Instituto Técnologico Beltrán</b> el segundo año de la carrera de <strong className={style.header__paragraph_highlight_blue}>Analista en Sistemas</strong>.
                         </p>
-    
-                        <a className={`${style.header__button} ${!isDarkTheme ? style.header__button_night : ''}`} href="./curriculum.pdf" target="_blank" rel="noreferrer noopener" aria-label="Curriculum">Currículum</a>
+                        
+                        <a href={cv} target="_blank" rel="noreferrer noopener" aria-label="Curriculum" className={isDarkTheme ? style.header__color_light : style.header__color_dark}>
+                            <span className={`${style.header__button} ${!isDarkTheme ? style.header__button_night : ''}`}>
+                                Currículum
+                            </span>
+                        </a>
                     </div>
                 </article>
                 <article className={`col`}>

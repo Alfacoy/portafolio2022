@@ -1,8 +1,16 @@
 ---
-title: 'Mis notas'
-authors: [Alfacoy]
-slug: Mis notas
+sidebar_position: 2
 ---
+
+# Mis notas
+
+### Octubre 2021
+* GraphQL (https://graphql.org/)
+* Webhook (https://es.mailjet.com/blog/news/que-es-webhook/)
+* Github RestAPI (https://docs.github.com/en/rest)
+* Redux (https://es.redux.js.org/)
+* Infima (https://infima.dev/)
+* MercadoPago (https://www.mercadopago.com.ar/developers/es/guides)
 
 ### Septiembre 2021
 * Docusaurus (https://docusaurus.io/)

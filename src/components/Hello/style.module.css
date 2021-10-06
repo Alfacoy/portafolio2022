@@ -56,6 +56,14 @@
     display: none;
 }
 
+.header__color_light {
+    color: #fff;
+}
+
+.header__color_dark {
+    color: #333;
+}
+
 /*RESPONSIVE*/
 /*MOBILE*/
 @media screen and (max-width: 799px) and (orientation:landscape){
@@ -82,7 +90,7 @@
     
     .header__button:hover {
         background-color: #0070F3;
-        transition-duration: .7s;
+        transition-duration: 1s;
         transition-timing-function: ease;
     }
     
@@ -90,6 +98,8 @@
         transition-duration: .7s;
         transition-timing-function: ease;
     }
+
+
     
     .header__image {
         display: block;

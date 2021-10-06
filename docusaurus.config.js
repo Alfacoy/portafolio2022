@@ -24,13 +24,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl: 'https://github.com/Alfacoy/portafolio_v3',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           blogSidebarTitle: 'Recientes',
-          editUrl: 'https://github.com/Alfacoy/portafolio_v3',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -47,29 +45,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       },
       navbar: {
         title: 'Brian Durand',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
         items: [
-          { type: 'doc', docId: 'intro',label: 'Docs', position: 'right' },
-          { to: '/blog', label: 'Blog', position: 'right' },
+          { type: 'doc', docId: 'intro',label: 'Notas', position: 'right' },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Secciones',
+            title: 'Contenido',
             items: [
-              {
-                label: 'Sobre mi',
-                to: '/sobreMi'
-              },
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'Docs',
                 to: '/docs/intro',
@@ -77,7 +62,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
           {
-            title: 'Redes sociales',
+            title: 'Social',
             items:
               [
                 {

@@ -2,34 +2,11 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Hola Mundo!
 
-Let's discover **Docusaurus in less than 5 minutes**.
+¿Cómo va?
 
-## Getting Started
+Lo que están a punto de leer no es la verdad absoluta ni lo intenta ser. Solamente son apuntes que voy tomando para poder preservarlos en el tiempo.
+Si crees que estoy equivocado en algo, por favor, comentame para poder corregirlo y aprender de eso. 
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+Muchas gracias
