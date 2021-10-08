@@ -1,7 +1,7 @@
 ---
 id: placa-madre
 title: Placa madre
-sidebar_position: 2
+sidebar_position: 1
 ---
 # Detalle de placa madre
 

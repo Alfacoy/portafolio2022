@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Hola Mundo!
+# ¡Hola Mundo!
 
 ¿Cómo va?
 
