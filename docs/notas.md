@@ -5,6 +5,9 @@ sidebar_position: 2
 # Mis notas
 
 ### Octubre 2021
+* NodeJs (https://nodejs.org/dist/latest-v14.x/docs/api/)
+* Axios (https://www.npmjs.com/package/axios)
+* NextJS (https://nextjs.org/docs/getting-started)
 * GraphQL (https://graphql.org/)
 * Webhook (https://es.mailjet.com/blog/news/que-es-webhook/)
 * Github RestAPI (https://docs.github.com/en/rest)

@@ -1,7 +1,7 @@
 ---
 id: heroku-strapi   
 title: Conectar heroku con strapi
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 :::info Documentación oficial (Inglés)
