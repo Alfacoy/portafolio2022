@@ -11,9 +11,9 @@ export default function Home() {
 
   return (
     <Layout
-      title={`Hola Mundo`}
-      description="Description will go into a meta tag in <head />">
-      <main>
+      title={``}
+      description="Actualmente vivo en Buenos Aires (Argentina) y me encuentro trabajando para Integrity Seguros como Analista Programador Junior.">
+      <main className={styles.centro}>
         <Hello />
       </main>
     </Layout>

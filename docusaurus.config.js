@@ -24,13 +24,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl: 'https://github.com/Alfacoy/portafolio_v3',
         },
         blog: {
-          showReadingTime: true,
-          blogSidebarTitle: 'Los más recientes',
-          editUrl: 'https://github.com/Alfacoy/portafolio_v3',
+          showReadingTime: false,
+          blogSidebarTitle: 'Recientes',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -47,31 +45,35 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       },
       navbar: {
         title: 'Brian Durand',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
         items: [
-          { type: 'doc', docId: 'intro',label: 'Docs', position: 'right' },
-          { to: '/blog', label: 'Blog', position: 'right' },
-          { href: 'https://github.com/Alfacoy', label: 'Github',position: 'right'}
+          { type: 'doc', docId: 'intro',label: 'Notas', position: 'right' },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'More',
+            title: 'Contenido',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/Alfacoy',
-              },
+                label: 'Notas',
+                to: '/docs/intro',
+              }
             ],
+          },
+          {
+            title: 'Social',
+            items:
+              [
+                {
+                  label: 'GitHub',
+                  href: 'https://github.com/Alfacoy',
+                },
+                {
+                  label: 'Linkedin',
+                  href: 'https://www.linkedin.com/in/durand18/',
+                },
+              ]
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Brian Durand`,
