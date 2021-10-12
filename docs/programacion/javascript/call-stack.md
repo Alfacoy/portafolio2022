@@ -16,11 +16,18 @@ Toda función que sea llamada desde esta, va a ser agregada por encima de ella e
 Cuando se termine de ejecutar la última función llamada, se eliminará de la pila y reanudará  la ejecución de la función anterior.
 
 :::tip Extra!
-Cada elemento en la pila de ejecución es distinto de otro, teniendo cada uno su propio contexto de ejecución (Aunque sean varios elementos del mismo nombre).
+Cada elemento en la pila de ejecución es distinto de otro, teniendo cada uno su propio contexto de ejecución y variables locales (Aunque sean varios elementos del mismo nombre).
 :::
 
 :::danger Atención
-Nuestra pila por lo general tiene un límite de capacidad, por lo que si nos excedemos se producirá un error llamado **“desbordamiento de pila”**.
+Nuestra pila por lo general tiene un límite de capacidad, por lo que si nos excedemos se producirá un error llamado **“desbordamiento de pila”** (Overflowing).
+```js
+function foo(){
+  foo();
+}
+
+foo();
+```
 :::
 
 Este ejemplo lo saqué de la documentación de MDN y nos dice básicamente esto: 
