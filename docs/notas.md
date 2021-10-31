@@ -5,6 +5,8 @@ sidebar_position: 2
 # Mis notas
 
 ### Octubre 2021
+* Nock (https://github.com/nock/nock)
+* Jest (https://jestjs.io/docs/setup-teardown)
 * NodeJs (https://nodejs.org/dist/latest-v14.x/docs/api/)
 * Axios (https://www.npmjs.com/package/axios)
 * NextJS (https://nextjs.org/docs/getting-started)

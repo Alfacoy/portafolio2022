@@ -1,7 +1,7 @@
 ---
 id: event-loop
 title: Event loop
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 :::info Más información
@@ -43,11 +43,11 @@ Node: fs, https
 Cada vez que el Call Stack detecte un Web API lo enviará a una **tabla de eventos** en donde esperará hasta ser invocado o retorne una llamada.
 
 ### Callback Queue
-Cuando una API es invocada, su ejecución pasa a la espera en un componente llamado Callback Queue. Este utiliza el modelo FIFO (First In First Out), por lo que, cuando se vacíe el Call Stack, serán ejecutados en el orden de llegada.
+Cuando una API es invocada, su ejecución pasa a la espera en un componente llamado Callback Queue. Este utiliza el modelo FIFO (First In First Out), por lo que, cuando se **vacíe el Call Stack**, serán ejecutados en el orden de llegada.
 
 
 ### Event Loop
-Este se encarga de revisar continuamente si nuestro Call Stack tiene tareas en ejecución. En caso de tener, sigue consultando, caso contrario, deja ingresar de a uno las tareas que estén pendientes en el Callback Queue.
+Este se encarga de revisar continuamente si nuestro Call Stack tiene tareas en ejecución. En caso de tener, sigue consultando, caso contrario, **deja ingresar de a uno** las tareas que estén pendientes en el Callback Queue.
 
 ### Job Queue / MicroTask Queue
-Las promesas de nuestras llamadas asíncronas tienen prioridad por lo que no pasan directamente al Callback Queue sino que son movidos al Job Queue e ingresan antes al Call Stack.
+Las promesas de nuestras llamadas asíncronas **tienen prioridad** por lo que no pasan directamente al Callback Queue sino que son movidos al Job Queue e **ingresan antes** al Call Stack.
