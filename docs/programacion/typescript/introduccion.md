@@ -6,6 +6,10 @@ sidebar_position: 1
 
 ## Instalación
 
+:::info Curso Microsoft
+https://docs.microsoft.com/es-es/learn/modules/typescript-get-started/?source=learn
+:::
+
 ```js
 npm install -g typescript
 ```

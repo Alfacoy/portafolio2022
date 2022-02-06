@@ -15,6 +15,7 @@ Una vez realizado, colocar la pila nuevamente y volver a enchufar el PC a la cor
 
 En caso de que no funcione, puede que la pila esté agotada y tengamos que cambiarla por una nueva.
 
+---
 
 ### Disipador pegado al CPU
 Casi pierdo el alma cuando tuve que forcejear con el disipador para despegarlo del CPU jaja. Al parecer es algo totalmente normal con procesadores AMD debido a que tanto el procesador
@@ -29,5 +30,22 @@ En caso de haber tirado como si no hubiera un mañana y al sacar el disipador no
 ya que podría llegar a torcerse o perder pines. La mejor manera de sacarlo es con cuidado y haciendo giros suaves hasta que se despegue. 
 :::
 
+--- 
+
 ### Masa de placa madre
 No fue un error que tuve de momento, pero puede pasar que la pc no encienda debido a que está haciendo contacto con el gabinete y desvia la energía en ese sentido, haciendo que la placa madre no distribuya de manera efectiva la energía. 
+
+---
+
+### Estática en monitor
+Cierta vez tuve un problema con el monitor y no lo sabía. Encendí la computadora y no daba imagen. Todo era muy similar a cuando tuve que cambiar la pila de la bios, por lo que repetí la operación. Claramente no funcionó
+
+**Solución**
+
+Cuando llamé al servicio técnico, me comentaron que el monitor SAMSUNG había tenido una sobrecarga de estática por lo que tuve que desenchufarlo y mantener presionado el botón de encendido unos 30 segundos para liberarla. 
+
+Luego de esto, mi monitor volvió a brillar como el primer día y mis esperanzas volvieron, ya que casi me compro un mother nuevo pensando que se me había ripeado.
+
+**Reflexión**
+
+Lo mejor en estos casos es, si tenes la suerte de tener más computadoras y tu principal no da imagen, probar el monitor en el resto antes de desarmarla. En mi experiencia, tuve la suerte de no romper nada cuando la desarme varias veces para encontrar el problema.

@@ -1,8 +1,19 @@
 ---
 sidebar_position: 2
+image: https://i.imgur.com/mErPwqL.png
 ---
 
 # Mis notas
+
+### Diciembre 2021
+* Discord.js (https://discord.js.org/#/)
+* Tmi.js (https://tmijs.com/)
+* Webpack (https://webpack.js.org/concepts/)
+* Styled components (https://styled-components.com/docs/basics)
+* Sequelize (https://sequelize.org/master/index.html)
+* MongoDB (https://docs.mongodb.com/)
+* Express (https://expressjs.com/)
+* SocketIO (https://socket.io/docs/v4/)
 
 ### Octubre 2021
 * Nock (https://github.com/nock/nock)
@@ -18,6 +29,7 @@ sidebar_position: 2
 * MercadoPago (https://www.mercadopago.com.ar/developers/es/guides)
 
 ### Septiembre 2021
+* JSON (https://www.digitalocean.com/community/tutorials/js-json-parse-stringify-es)
 * Docusaurus (https://docusaurus.io/)
 * Solidity (https://solidity-es.readthedocs.io/es/latest/index.html)
 * Utterances (https://utteranc.es/)

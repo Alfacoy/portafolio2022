@@ -1,6 +1,6 @@
 ---
 id: js-basico
-title: Introducción
+title: Introducción a Javascript
 sidebar_position: 1
 ---
 
