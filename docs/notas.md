@@ -5,6 +5,9 @@ image: https://i.imgur.com/mErPwqL.png
 
 # Mis notas
 
+### Febrero 2022
+* Jwt (https://jwt.io/)
+* Bcrypt (https://www.npmjs.com/package/bcrypt)
 ### Diciembre 2021
 * Discord.js (https://discord.js.org/#/)
 * Tmi.js (https://tmijs.com/)

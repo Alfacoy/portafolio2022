@@ -19,7 +19,7 @@ const Hello = () => {
                 <article className={`col`}>
                     <div>
                         <h1 className={`${style.header__title} ${!isDarkTheme ? style.header__title_night : ''}`}>Brian Durand</h1>
-                        <h2 className={style.header__subtitle}>Frontend Developer</h2>
+                        <h2 className={style.header__subtitle}>Full Stack Developer</h2>
                     </div>
     
                     <div>
